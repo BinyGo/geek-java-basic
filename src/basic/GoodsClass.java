@@ -18,7 +18,8 @@ public class GoodsClass {
     String id;
     int count;
     double price;
-    public String sex;
+    public String sex = "男";
+    public int age;
 
     // TODO 返回值:无需返回值用void表示
     public void describePrint(){
